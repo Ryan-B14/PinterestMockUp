@@ -14,8 +14,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import kotlin.random.Random
 
 @Composable
-fun HomeFeed(modifier: Modifier) {
-    LazyColumn(modifier = modifier
+fun HomeScreen() {
+    LazyColumn(modifier = Modifier
         .fillMaxSize()
         .background(Color.Black)) {
 
@@ -35,6 +35,6 @@ fun HomeFeed(modifier: Modifier) {
 
 @Preview
 @Composable
-fun HomeFeedPreview() {
-    HomeFeed(Modifier)
+fun HomeScreenPreview() {
+    HomeScreen()
 }
